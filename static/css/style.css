@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.root {
+    width: 100vw;
+    height: 100vh;
+    background: red;
+    /* transition: all 2s; */
+}
+
+.text {
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.change-btn {
+    background-color: aqua;
+    color: #000;
+}

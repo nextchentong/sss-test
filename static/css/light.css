@@ -1,0 +1,35 @@
+.root {
+	width: 100vw;
+	height: calc(100vh - 44px);
+	background: #fff;
+	transition: all 1s ease-in;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* .root:hover {
+    width: 200px;
+    background: blue;
+} */
+
+.text {
+	color: #000;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.text:hover {
+	color: #ea66ea;
+}
+
+.change-btn {
+	background-color: #fff;
+	color: #000;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	transition: 0.3s ease-in-out;
+}
